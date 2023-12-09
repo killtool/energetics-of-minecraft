@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energetics_of_minecraft:block/thunder_wood_top",
+    "up": "energetics_of_minecraft:block/thunder_wood_top",
+    "north": "energetics_of_minecraft:block/thunder_wood_sides",
+    "east": "energetics_of_minecraft:block/thunder_wood_sides",
+    "south": "energetics_of_minecraft:block/thunder_wood_sides",
+    "west": "energetics_of_minecraft:block/thunder_wood_sides",
+    "particle": "energetics_of_minecraft:block/thunder_wood_top"
+  },
+  "render_type": "solid"
+}

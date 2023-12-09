@@ -1,0 +1,7 @@
+Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--inJar, C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0\forge-1.20.1-47.1.0-injected.jar, --outJar, C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\fg_cache\net\minecraftforge\forge\1.20.1-47.1.0_mapped_official_1.20.1\forge-1.20.1-47.1.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\src\main\resources\META-INF\accesstransformer.cfg, --atFile, C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\_atJar_4\parent_at.cfg'
+Classpath:
+ - C:\Users\David\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working directory: C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\_atJar_4
+Main class: net.minecraftforge.accesstransformer.TransformerProcessor
+====================================

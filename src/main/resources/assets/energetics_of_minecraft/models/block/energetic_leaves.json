@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energetics_of_minecraft:block/energetic_leaves",
+    "up": "energetics_of_minecraft:block/energetic_leaves",
+    "north": "energetics_of_minecraft:block/energetic_leaves",
+    "east": "energetics_of_minecraft:block/energetic_leaves",
+    "south": "energetics_of_minecraft:block/energetic_leaves",
+    "west": "energetics_of_minecraft:block/energetic_leaves",
+    "particle": "energetics_of_minecraft:block/energetic_leaves"
+  },
+  "render_type": "solid"
+}

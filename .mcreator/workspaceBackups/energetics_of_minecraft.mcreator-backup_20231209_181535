@@ -1,0 +1,360 @@
+{
+  "mod_elements": [
+    {
+      "name": "EnergeticLeaves",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "energetic_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/energetics_of_minecraft/models/item/energetic_leaves.json",
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/energetic_leaves.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/block/EnergeticLeavesBlock.java",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/energetic_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "ThunderWood",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/energetics_of_minecraft/models/item/thunder_wood.json",
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/thunder_wood.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/thunder_wood.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/block/ThunderWoodBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ThunderStruckForest",
+      "type": "biome",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thunder_struck_forest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/energetics_of_minecraft/worldgen/biome/thunder_struck_forest.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/features/treedecorators/ThunderStruckForestFruitDecorator.java",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/features/treedecorators/ThunderStruckForestLeaveDecorator.java",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/features/treedecorators/ThunderStruckForestTrunkDecorator.java",
+          "src/main/resources/data/energetics_of_minecraft/worldgen/configured_feature/thunder_struck_forest_tree.json",
+          "src/main/resources/data/energetics_of_minecraft/worldgen/placed_feature/thunder_struck_forest_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/energetics_of_minecraft/worldgen/placed_feature/electrite_ore.json",
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/electrite_ore.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/item/electrite_ore.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/features/ores/ElectriteOreFeature.java",
+          "src/main/resources/data/energetics_of_minecraft/forge/biome_modifier/electrite_ore_biome_modifier.json",
+          "src/main/resources/data/energetics_of_minecraft/worldgen/configured_feature/electrite_ore.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/block/ElectriteOreBlock.java",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/electrite_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/energetics_of_minecraft/models/item/electrite_ingot.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/item/ElectriteIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteIngotRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/energetics_of_minecraft/recipes/electrite_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteBlock",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/electrite_block.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/item/electrite_block.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/electrite_block.json",
+          "src/main/java/net/mcreator/energeticsofminecraft/block/ElectriteBlockBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteBlockRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/energetics_of_minecraft/recipes/electrite_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Crafting",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/procedures/CraftingProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fivebyfivecraftintable",
+      "type": "gui",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fivebyfivecraftintable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/client/gui/FivebyfivecraftintableScreen.java",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/inventory/FivebyfivecraftintableMenu.java"
+        ]
+      }
+    },
+    {
+      "name": "Fourbyfourcraftintableprocedure",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourbyfourcraftintableprocedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/procedures/FourbyfourcraftintableprocedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fourbyfourcraftingtable",
+      "type": "gui",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fourbyfourcraftingtable",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/network/FourbyfourcraftingtableSlotMessage.java",
+          "src/main/java/net/mcreator/energeticsofminecraft/world/inventory/FourbyfourcraftingtableMenu.java",
+          "src/main/java/net/mcreator/energeticsofminecraft/client/gui/FourbyfourcraftingtableScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "ElectriteCraftingTable",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "electrite_crafting_table",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/block/ElectriteCraftingTableBlock.java",
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/electrite_crafting_table.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/item/electrite_crafting_table.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/electrite_crafting_table.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftingOpen5by5",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crafting_open_5by_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/procedures/CraftingOpen5by5Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Craftingtableopen2",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftingtableopen_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/procedures/Craftingtableopen2Procedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Four",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "four",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/energeticsofminecraft/block/FourBlock.java",
+          "src/main/resources/assets/energetics_of_minecraft/models/block/four.json",
+          "src/main/resources/assets/energetics_of_minecraft/blockstates/four.json",
+          "src/main/resources/assets/energetics_of_minecraft/models/item/four.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.energetics_of_minecraft.electrite_block": "Electrite Block",
+      "block.energetics_of_minecraft.energetic_leaves": "Energetic Leaves",
+      "biome.energetics_of_minecraft.thunder_struck_forest": "Thunder Struck Forest",
+      "block.energetics_of_minecraft.electrite_crafting_table": "Electrite Crafting Table",
+      "block.energetics_of_minecraft.thunder_wood": "Thunder Wood",
+      "block.energetics_of_minecraft.electrite_ore": "Electrite Ore",
+      "item.energetics_of_minecraft.electrite_ingot": "Electrite Ingot",
+      "block.energetics_of_minecraft.four": "Four"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "energetics_of_minecraft",
+    "modName": "Energetics_Of_Minecraft",
+    "version": "1.0.0",
+    "author": "crope, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.energeticsofminecraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}

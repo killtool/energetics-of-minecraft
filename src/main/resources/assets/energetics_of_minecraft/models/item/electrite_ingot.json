@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "energetics_of_minecraft:item/electrite_ingot"
+  }
+}

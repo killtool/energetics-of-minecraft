@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "energetics_of_minecraft:block/electrite_block",
+    "up": "energetics_of_minecraft:block/electrite_block",
+    "north": "energetics_of_minecraft:block/electrite_block",
+    "east": "energetics_of_minecraft:block/electrite_block",
+    "south": "energetics_of_minecraft:block/electrite_block",
+    "west": "energetics_of_minecraft:block/electrite_block",
+    "particle": "energetics_of_minecraft:block/electrite_block"
+  },
+  "render_type": "solid"
+}

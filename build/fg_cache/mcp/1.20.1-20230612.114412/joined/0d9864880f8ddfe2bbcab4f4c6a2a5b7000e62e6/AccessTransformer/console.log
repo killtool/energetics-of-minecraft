@@ -1,0 +1,6 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\rename\output.jar", "--outJar", "C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\AccessTransformer\output.jar", "--atFile", "C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\David\AppData\Local\Temp\FG_ats_6223306958640833296.cfg"
+Classpath:   C:\Users\David\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: C:\Users\David\MCreatorWorkspaces\energetics_of_minecraft\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

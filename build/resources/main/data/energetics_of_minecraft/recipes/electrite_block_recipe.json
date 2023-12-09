@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "1": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "2": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "3": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "4": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "5": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "6": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "7": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    },
+    "8": {
+      "item": "energetics_of_minecraft:electrite_ingot"
+    }
+  },
+  "result": {
+    "item": "energetics_of_minecraft:electrite_block",
+    "count": 1
+  }
+}
